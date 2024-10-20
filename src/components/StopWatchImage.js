@@ -5,7 +5,7 @@ export default function StopWatchImage() {
     <section>
       <img
         id="stopwatch-image"
-        src="/images/stopwatch.jpeg"
+        src={`${process.env.PUBLIC_URL}/images/stopwatch.jpeg`}
         alt="stopwatch icon"
       />
     </section>
